@@ -222,7 +222,7 @@ skills:
         - name: PIG script
           level: 80%
 
-      - name : Container orchestration
+      - name : Cloud / Container orchestration
         toolset:
           - name: AWS
             level: 95%
