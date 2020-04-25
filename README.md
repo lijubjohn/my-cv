@@ -7,3 +7,9 @@
 * Your new site should be ready at `https://username.github.io/my-cv/`
 
 Change all the details from one place: ``_data/data.yml``
+
+
+Locally run
+Prerequisite
+- install jekyll
+Command: ` jekyll serve`
