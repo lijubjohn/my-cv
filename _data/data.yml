@@ -33,19 +33,28 @@ sidebar:
         level: Native
 
     interests:
-      - item: Books, Chess , Cricket
+      - item: Technology
         link:
-
+      - item : Books
+      - item : Chess, Cricket
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Around 14 years of experience in building highly scalable full stack enterprise applications using Java/J2EE and various distributed Big Data technologies
+
+summary:
+    title: Summary
+    items: |
+      - Expertise in implementing real time data ingestion and processing pipelines for data analytics using Spark, Kafka, Hapoop and other big data technologies
+      - Managing and leading project development team for scoping, technical architecture, design and implementation
+      - Ability to design and deploying dynamically scalable, highly available and fault-tolerant application in AWS cloud using various AWS services
+      - Experience is building micro services using container orchestration and management system like kubernetes, Docker on-premise and on cloud using AWS services
+      - Expertise and in-depth knowledge in Apache Kafka eco-system involving Kafka producer, consumer, brokers, administration, Kafka Connect, Kafka Streams, Schema registry, Avro Serialization.
+      - Experience in using NOSQL databases like Mongo DB and Cassandra and RDBMS like Oracle and MySql
+      - Experise in identifyig performance bottlenecks and improving throughput and latencies in data pipelines and enterprise applications
+      - Proficiency with software engineering practices such as UML Modeling, Use Case analysis, Refactoring, code quality measurement and analysis using static code analysis tools
+
 education:
     - degree: B.E. in Computer Science
       university: Rajiv Gandhi Institute of Technology, RGPV, Bhopal (India)
@@ -182,24 +191,54 @@ certifications:
 skills:
     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Java & Scala
-        level: 98%
+    skillType:
+      - name : Languages
+        toolset:
+        - name: Java & Scala
+          level: 98%
+        - name: Javascript & jQuery
+          level: 85%
+        - name : PL/SQL
+          level : 80%
+        - name: Python
+          level: 70%
+        - name: Angular/Node JS
+          level: 60%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Distributed Computing
+        toolset:
+        - name : Hadoop/Map Reduce
+          level: 90%
+        - name: Apache Kafka
+          level: 90%
+        - name: Apache Spark
+          level: 80%
+        - name: Apache Hive
+          level: 80%
+        - name: Apache Livy
+          level: 80%
+        - name: Apache zeppelin
+          level: 80%
+        - name: PIG script
+          level: 80%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name : Container orchestration
+        toolset:
+          - name: AWS
+            level: 95%
+          - name: Docker
+            level: 70%
+          - name: Kubernetes
+            level: 80%
+      - name : Database
+        toolset:
+          - name: Oracle
+            level: 95%
+          - name: Cassandra
+            level: 70%
+          - name: MongoDB
+            level: 70%
+          - name : Neo4j
+            level : 60%
   #footer: >
  #   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

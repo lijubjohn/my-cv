@@ -1,0 +1,18 @@
+{% assign summary = site.data.data.summary %}
+{% if summary %}
+<section class="section summary-section">
+
+    <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+        {{ summary.title }}
+    </h2>
+
+    <div class="summary">
+        {{ summary.items | markdownify }}
+    </div><!--//summary-->
+
+</section><!--//section-->
+{% endif %}
