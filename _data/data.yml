@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: abc@gmail.com
+    email: liju0385@gmail.com
     phone: shared on request
     website: blog.xyz.com #do not add http://
     linkedin: liju-john-32a5b715
@@ -59,43 +59,71 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Data Engineer (Technical Manager)
+      time: 2017 - Present
+      company: Infosys Ltd, Pune, India
+      client: Apple Inc
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+
+        Lead Data engineering for design ,implementation and enhancements of Apple’s iCloud data analytics platform
+          - Technology used - Core Java, Apache spark, Apache Zeppelin, Livy server, Kafka, Hadoop Map- Reduce and Apache Kafka, AWS services and various other big data technologies
+
+        Administration and enhancement of Apache Kafka Brokers for Apple’s iCloud reporting system
+          - Technology used - Apache Kafka
+
+        Team management and weekly update of the reporting team members to the stack holders
+
+    - role: Data Engineer (Technology Lead)
+      time: 2014 - 2017
+      company: Infosys Ltd, Cupertino, USA
+      client: Apple Inc
+      details: |
+
+        Developed from scratch a highly scalable ingestion pipeline for real time streaming of millions of transactions for Apple’s iCloud analytics and reporting system
+          - Technology used - Core Java, Netty, Java restful services, Java NIO , multithreading framework, Apache Kafka, Kafka connect ,Cassandra , Avro serialization framework and Hadoop system.
+
+        Developed client API in Core Java which is used by various iCloud applications like iMessage, Calendar, FindMyPhone etc for ingesting the transactions into iCloud reporting ingesting service for reporting purpose
+          - Technology used - Core Java, Java NIO , multithreading framework, Apache Kafka and Avro serialization
+
+        Developed schema registry service using Core java and Cassandra as schema store which is used by various internal iCloud components for querying and resolving Apache Avro schema
+          - Technology used - Cassandra, Apache Avro, Core Java, JAX-RS
+
+        Developing business reports of iCloud data using Hadoop pig scrips and Map-Reduce programing
+
+        Development and enhancement of monitoring and alerting systems for ETL and Streaming pipeline for tracking and fault identification using Map-reduce programing, Core Java , Hadoop and Java Script and Node JS
+
+        Developed various deployment and testing scripts using unix shell scripting
+
+    - role: Technology Lead
+      time: 2011 - 2014
+      company: Infosys Ltd, Plano, USA
+      client: Capital One Bank
+      details: |
+        Developed internet facing website for Capital One’s Loan Origination system which takes applications from end customers applying for auto loan from Capital One bank. Applicants can apply loan application to Capital One , followed by approval and funding process.The website is highly scalable and caters to thousands of applications per hour.
+          - Technology used - Spring MVC, Core Java, JavaScript, Ajax, jQuery, Design Patterns, JAX-WS web- services, PL/SQL, JAXB/JAXP, Maven, WebLogic server
+
+        Developed services for verification, approval and funding process of auto loan applications . Once the applicants apply for auto loan application through internet or through dealer app, the application goes through the verification, approval and funding process during which applicants data and documents are verified by calling various external services , post which the applicants credit score is evaluated by calling different credit bureau and ingested into decisioning engine and goes through approval process for APR calculation if the application is approved . Post approval, the application moves to funding process and application is finally funded.
+          - Technology used - Core Java, JAX-WS , EJB, JAXB/JAXP, PL/SQL, Design patterns, Java Script Ajax, jQuery, Capstone, Business Rules Engine, WebLogic, Maven, Shell scripting, JMS, Savvion/Progress
+
+    - role: Technology Analyst
+      time: 2009 - 2011
+      company: Infosys Ltd, Pune, India
+      client: Capital One Bank
+      details: |
+        Developed centralized authentication web service which authenticates and authorizes users based on their roles which is used by various internal Capital One’s systems
+          - Technology used - Core Java, XML, JAX-WS, LDAP apis , Oracle, PL/SQL, Weblogic server
+
     - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+      time: 2007 - 2009
+      company: Infosys Ltd, Pune, India
+      client: British Telecom
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Worked on enhancement of various components involved in British Telecom’s network service provisioning system , primarily worked on development on network service order decomposition system which decomposes network service order into multiple order lines for providing connection to various host services ( like MPLS and VPN )
+          - Technology used - Core Java, Spring, PL/SQL and XML technologies
+
+        Developed order tracking system for British Telecom’s network service provisioning system for tracking and monitoring faults in the order using J2EE technologies
+          - Technology used - Core Java, SPRING, Web-logic server ,Ajax , Java Script Oracle and PL/SQL
+
 projects:
     title: Projects
     intro: >
@@ -144,12 +172,18 @@ publications:
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
+certifications:
+    title : Certifications
+    items:
+      - name : Oracle certified expert for web service developer
+      - name : Sun certified Java professional
+      - name : Course era certified Scala developer
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Java & Scala
         level: 98%
 
       - name: Javascript & jQuery
@@ -167,5 +201,5 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
 
-#footer: >
+  #footer: >
  #   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
